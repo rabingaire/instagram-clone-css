@@ -1,0 +1,46 @@
+h1 {
+  color: red;
+}
+body {
+  background-color: wheat;
+}
+#instagram {
+  background-color: azure;
+  color: black;
+  height: 420px;
+  text-align: center;
+}
+
+#instag {
+  border: 1px solid gray;
+  margin-top: 50px;
+  height: 45px;
+}
+
+#insta {
+  margin-top: 25px;
+  background-color: lightgrey;
+  color: black;
+  text-align: left;
+  height: 30px;
+  border: 1px solid gray;
+}
+.use {
+  font-size: 15px;
+}
+#insta2 {
+  margin-top: 10px;
+  background-color: lightgrey;
+  color: black;
+  height: 30px;
+  text-align: left;
+  border: 1px solid gray;
+}
+#insta3 {
+  margin-top: 15px;
+  background-color: rgb(147, 181, 233);
+  color: white;
+  height: 30px;
+  text-align: center;
+  border: 1px solid blue;
+}
