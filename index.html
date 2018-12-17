@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Instagram UI clone</title>
+</head>
+<body>
+    <div class="container">
+        <main class="insta-container">
+            <section id="mobile-devices"></section>
+            <article class="form-wrapper">
+                <section id="login-signup-form">
+                    <h1 class="heading-group" id="heading-primary">
+                        <img src="images/insta-logo.PNG" alt="instagram logo">
+                    </h1>
+                    <!-- <h3 class="heading-group" id="heading-secondary">Sign up to see photoes and videos from your friends.</h3> -->
+                    <button class="heading-group2 blue-btn">
+                        <a href="https://www.facebook.com/" target="_blank"> 
+                            <img id = 'fb-logo' src="images/facebook-logo.jpg" alt="Log in with Facebook">
+                            Log in with Facebook
+                         </a>
+                        </button>
+                    <div class="horizontal-line">
+                        <div class="line"></div>
+                        <div class="content-or">or</div>
+                        <div class="line"></div>
+                    </div>
+                    <form method="POST" class="form-group">
+                        <input class="form-input" type="text" name="mobile-emai" id="mobile-email" placeholder="Mobile Number or Email" autocomplete="off">
+                        <input class="form-input" type="text" placeholder="Full Name" autocomplete="false">
+                        <input class="form-input" type="text" placeholder="Username" autocomplete="false">
+                        <input class="form-input" type="password" placeholder="Password" autocomplete="false">
+                        <input type="submit" value="Sign up" class="blue-btn">
+                    </form>
+                    <div class="message">
+                        <p>By signing up, you agree to our <b>Terms, Data Policy</b> and <b>Cookies Policy</b>.</p>
+                    </div>
+                </section>
+
+                <section class="login">
+                    <p>Have an account? 
+                        <a href="#">Log in</a>
+                    </p>
+                </section>
+
+                <section class="app-store-link">
+                    <p>Get the app.</p>
+                    <div class="app-store">
+                        <div class="apple-store">
+                            <a href="https://itunes.apple.com/app/instagram/id389801252?mt=8&vt=lo" target="_blank">
+                                <img src="images/applestore.png" alt="App Store">
+                            </a>
+                        </div>
+                        <div class="google-play">
+                            <a href="https://play.google.com/store/apps/details?id=com.instagram.android&referrer=utm_source%3Dinstagramweb%26utm_campaign%3DsignupPage%26ig_mid%3DWkq13AAEAAFAKUlS0_p0Dks6pSat%26utm_content%3Dlo%26utm_medium%3Dbadge" target="_blank">
+                                <img src="images/googlePlay.png" alt="Google Play">
+                            </a>
+                        </div>
+                    </div>
+                </section>
+            </article>
+        </main>
+    </div>
+</body>
+</html>

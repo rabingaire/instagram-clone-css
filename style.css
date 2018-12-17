@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.container {
+    min-height: 100vh;
+    background-color: #FAFAFA;
+}
+
+.insta-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+#mobile-devices {
+    background: url(images/mobileDevices.PNG) center center;
+    height: 580px;
+    flex-basis: 400px;
+    background-repeat: no-repeat;
+    background-size: content;
+    margin-right: 15px;
+}
+
+.form-wrapper {
+    flex-basis: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+ #login-signup-form {
+    border: solid #E6E6E6 1px;
+    background: #ffffff;
+    border-radius: 1px;
+    display: flex;
+    flex-direction: column;
+    background-color: fff;
+    padding: 40px;
+    flex-grow: 1;
+}
+
+
+.heading-group {
+    margin-bottom: 10px;
+} 
+
+.heading-group2 {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.heading-group2 a {
+    text-decoration: none;
+    color: white;
+}
+
+#heading-primary {
+    text-align: center;
+}
+
+.blue-btn {
+    background-color: #3897F0;
+    color: #F5FAFF;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    border-style: none;
+    margin-top: 5px;
+}
+
+#fb-logo {
+    height: 17px;
+    position: absolute;
+    left: 38px;
+}
+
+.horizontal-line {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+.line {
+    flex-grow: 1;
+    background-color: #efefef;
+    height: 1px;
+}
+
+.content-or {
+    text-transform: uppercase;
+    font-size: 13px;
+    margin: 0 20px;
+    color: #A2A2A2;
+    font-weight: 500;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-input {
+    background-color: #FAFAFA;
+    margin-bottom: 8px;
+    border: #EFEFEF 1px solid;
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+.message {
+    font-size: 14px;
+    color: #B5B5B5;
+    margin: 25px 20px 5px 20px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.login{
+    color: #656565;
+    border: solid #E6E6E6 1px;
+    border-radius: 1px;
+    padding: 20px;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 10px;
+    background-color: #fff;
+    flex-grow: 1;
+} 
+
+.login a {
+    text-decoration: none;
+    color: #3897F0;
+}
+
+.app-store-link {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.app-store-link p {
+    margin: 0 auto 20px;
+}
+
+.app-store {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.apple-store {
+    margin-right: 10px;
+}
+
+.app-store img {
+    width: 140px;
+    height: 40px;
+}
