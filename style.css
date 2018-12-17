@@ -1,0 +1,74 @@
+.instagramImg{
+    padding-top: 30px;
+    height: 100px;
+    width: 120px;
+    /* font-style: inherit; */
+}
+.col-5{ 
+    text-align: center;   
+    width: auto;
+}
+
+.img{
+    display: block;
+    height: 300px;
+    border-color: brown;
+    
+}
+.IntgrmSec{
+    border: solid #eee8e8;
+    margin-top: 10px;
+    width: auto;
+    text-align: center;
+}
+.line{
+    display:inline-table; 
+    color:lightskyblue;
+    position: relative; 
+    
+}
+.userinput{
+   width: 260px; 
+   font-variant: normal;
+   padding-bottom: 6px;
+   
+}
+.userinput1{
+    padding-top: 8px;
+   padding-bottom: 6px;
+   
+   
+}
+.password{
+    width: 260px; 
+    padding-bottom: 6px;
+    font-variant: normal;
+}
+.btn{
+    width: 260px;  
+    margin-top: 10px;
+    background-color: lightskyblue;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 100%;
+    font-weight: bold;
+}
+.logByFb{
+    
+    position: relative;
+}
+.fab fa-facebook{
+    position: absolute;
+    background-color: blue;
+    color: whitesmoke;
+    height: 50px;
+    width: 50px;
+}
+.signUpPage{
+    border: solid #eee8e8;
+    margin-top: 15px;
+    display: block;
+    text-align: center;
+    padding-top: 6px;
+}
+ 
