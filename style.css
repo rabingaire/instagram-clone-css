@@ -1,0 +1,82 @@
+h1 {
+  color: red;
+}
+body {
+  background-color: whitesmoke;
+}
+#instagram {
+  background-color: white;
+  color: black;
+  height: 380px;
+  text-align: center;
+  border: 1px solid lightgray;
+  margin-top: 20px;
+}
+
+#instag {
+  border: 1px solid gray;
+  margin-top: 50px;
+  height: 45px;
+}
+
+#insta {
+  background-color: rgb(248, 244, 244);
+  color: rgb(95, 93, 93);
+  text-align: left;
+  height: 40px;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  padding-top: 5px;
+}
+.use {
+  font-size: 15px;
+}
+#insta2 {
+  margin-top: 8px;
+  background-color: rgb(248, 244, 244);
+  color: rgb(95, 93, 93);
+  height: 40px;
+  text-align: left;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  padding-top: 5px;
+}
+#insta3 {
+  margin-top: 16px;
+  background-color: rgb(172, 201, 243);
+  color: white;
+  height: 30px;
+  text-align: center;
+  padding-top: 3px;
+  font-weight: bold;
+  border-radius: 3px;
+}
+#insta4 {
+  margin-top: 16px;
+  color: rgb(119, 117, 117);
+}
+#insta5 {
+  color: darkblue;
+  margin-right: 0px;
+}
+#pic {
+  margin-left: 48px;
+}
+.pwd {
+  color: black;
+}
+#instagram1 {
+  margin-top: 13px;
+  background-color: white;
+  color: black;
+  padding-top: 10px;
+  height: 50px;
+  text-align: center;
+  border: 1px solid lightgray;
+}
+#blue {
+  color: blue;
+}
+#cellphone {
+  margin-top: 20px;
+}
