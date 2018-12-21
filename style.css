@@ -1,0 +1,123 @@
+/* Normalize html elemensts*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.container {
+    background: url(images/home.jpg) center center;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+}
+
+.clearfix::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.logo {
+    float: left;
+    max-height: 100px;
+    width: auto;
+    padding: 20px 15px;
+}
+
+.logo img {
+    height: 36px;
+    width: auto;
+}
+
+.nav {
+    float: right;
+}
+
+.nav .nav-primary {
+    list-style: none;
+}
+
+.nav .nav-primary li {
+    float: left;
+    padding: 30px 10px;
+    font-weight: 600;
+}
+
+.nav .nav-primary li:hover {
+    border-bottom: 2px solid #ffffff;
+}
+
+.form-wrapper {
+   margin: 3.5% 0 0 15%;
+}
+
+.form-wrapper .form-group {
+    max-width: 350px;
+    height: auto;
+    padding: 30px;
+    border-radius: 3px;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.form-wrapper .font-uppercase {
+    display: block;
+    text-transform: uppercase;
+    margin: 20px 0 6px 0;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.form-wrapper input {
+    width: calc(100% - 14px); /* padding 2*5 and 2 and 2*margin */
+}
+
+.form-wrapper form input {
+    padding: 5px;
+}
+
+.form-wrapper .form-group .inline-form-input {
+    float: left;
+    width: 50%;
+}
+
+.btn-tomato {
+    background-color: tomato;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 3px;
+    margin: 25px 0 0;
+    color: #ffffff;
+    font-weight: bold;
+    float: right;
+}
+
+.msg {
+    font-weight: bold;
+    margin: 10px 0 0 40px;
+    font-size: 14px;
+}
+
+.msg img {
+    width: 16px;
+    margin-right: 3px;
+}
+
+.message {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    text-align: right;
+    padding: 15px;
+    line-height: 1.5em;
+}
